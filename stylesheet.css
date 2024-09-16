@@ -1,0 +1,70 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    background: url('https://i.pinimg.com/originals/0b/d9/a2/0bd9a29a53ba553b2fc84e2e0402bb3f.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+.form {
+    display: grid;
+    backdrop-filter: blur(10px);
+    background-color: rgba(34, 24, 113, 0.5);
+    border-radius: 20px;
+    max-width: 350px;
+    padding: 50px 30px ; 
+    width: 80%; 
+    box-shadow: 0 8px 16px rgba(34, 24, 113, 0.2); 
+    color: rgb(236, 233, 233);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    grid-gap: 20px;
+  }
+  input {
+    padding: 10px; 
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+  }
+  button.signup {
+    border-radius: 5px;  
+    padding: 10px 20px;  
+    font-size: 16px;
+    color: white;
+    background-color: #da1313;  
+    border: none;
+    cursor: pointer;
+    height: auto; 
+    width: 50%;  
+    box-sizing: border-box;  
+    transition: background-color 0.3s ease; 
+    align-self: center;
+    justify-self: center;
+  }
+  button.cancel {
+    border-radius: 5px;  
+    padding: 10px 20px;  
+    font-size: 16px;
+    color: white;
+    background-color: #0dee0d;  
+    border: none;
+    cursor: pointer;
+    height: auto; 
+    width: 50%;  
+    box-sizing: border-box;  
+    transition: background-color 0.3s ease; 
+    align-self: center;
+    justify-self: center;
+  }
+  .icons a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+  }
