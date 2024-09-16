@@ -7,7 +7,7 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    background: url('https://i.pinimg.com/originals/0b/d9/a2/0bd9a29a53ba553b2fc84e2e0402bb3f.gif') no-repeat center center fixed;
+    background: url('bg1.gif') no-repeat center center fixed;
     background-size: cover;
 }
 .form {
